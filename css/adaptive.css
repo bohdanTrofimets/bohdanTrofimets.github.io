@@ -1,0 +1,121 @@
+@media all and (max-width: 1250px) {
+  .header-up {
+    width: 100%;
+    margin: auto;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .languages {
+    width: 90%;
+    margin: auto; }
+  .header-up nav {
+    margin-left: 0; } }
+
+@media all and (max-width: 1100px) {
+  .cards {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .cards #card__1, .cards #card__2, .cards #card__3 {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      margin-top: 10%; }
+      .cards #card__1 h4, .cards #card__1 h5, .cards #card__2 h4, .cards #card__2 h5, .cards #card__3 h4, .cards #card__3 h5 {
+        text-align: center; }
+      .cards #card__1 p, .cards #card__2 p, .cards #card__3 p {
+        max-width: 100%;
+        text-align: center; }
+  .main__bottom-content::after {
+    display: none; } }
+
+@media all and (max-width: 1000px) {
+  .quotes-slider {
+    margin: auto; }
+  header .header-up {
+    position: relative; }
+    header .header-up .menu-btn {
+      display: block; }
+    header .header-up nav {
+      display: none; }
+  main .headLine {
+    margin-left: 0; }
+    main .headLine h1 {
+      font-size: 50px; }
+  header .header-up .burger-nav {
+    display: block;
+    position: absolute;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    background-color: #858688;
+    height: 100vh;
+    top: 50px;
+    left: -100%;
+    -webkit-transition: left .2s;
+    -o-transition: left .2s;
+    transition: left .2s;
+    z-index: 2;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden; }
+    header .header-up .burger-nav ul {
+      text-align: center;
+      width: 80%;
+      margin: auto; }
+      header .header-up .burger-nav ul li {
+        margin: 10px;
+        padding: 15px;
+        border-bottom: 1px solid #B5B5B5; }
+      header .header-up .burger-nav ul li a {
+        font-size: 25px;
+        color: #FFFF; }
+        header .header-up .burger-nav ul li a i {
+          margin-right: 15px; }
+  header .header-up .burger-nav_active {
+    left: 0px; }
+  .footer__bottom .designed {
+    text-align: center; } }
+
+@media all and (max-width: 800px) {
+  #card__1 p, #card__2 p, #card__3 p {
+    font-size: 15px; }
+  main .main__content .main__headline h3 {
+    text-align: center;
+    margin-left: 0; } }
+
+@media all and (max-width: 700px) {
+  footer .footer-nav nav {
+    display: none; }
+  .main__content .main__bottom .main__bottom-content h4 {
+    text-align: center; }
+  .main__content .main__bottom .main__bottom-content h5 {
+    text-align: center; }
+  .main__content .main__bottom .main__bottom-buttons {
+    text-align: center; }
+  .main__content .main__headline .quotes-slider {
+    width: 80%;
+    margin: auto; } }
+
+@media all and (max-width: 600px) {
+  main .main__content .donate h4 {
+    max-width: 80%;
+    margin: auto;
+    font-size: 25px; }
+  main .main__content .donate h5 {
+    margin-top: 20px;
+    font-size: 18px; }
+  .footer__bottom .socials ul {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; } }

@@ -1,0 +1,324 @@
+main {
+  background-image: url(../img/Layer-21.jpg);
+  background-repeat: no-repeat; }
+  main .content {
+    background-color: rgba(255, 255, 255, 0); }
+  main .headLine {
+    margin-top: 178px;
+    margin-left: 70px; }
+  main h1 {
+    font-size: 55px;
+    font-weight: 600;
+    color: #6F6F6F; }
+  main h2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #6E6F6E; }
+    main h2 span {
+      color: #FC595D; }
+  main .buttons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 80px; }
+    main .buttons #create {
+      width: 245px;
+      height: 55px;
+      font-size: 18px;
+      color: #FFFFFF;
+      font-weight: 700;
+      -webkit-border-radius: 30px;
+              border-radius: 30px;
+      background: #603560;
+      background: -webkit-linear-gradient(205deg, #603560 28%, #7c69aa 89%);
+      background: -o-linear-gradient(205deg, #603560 28%, #7c69aa 89%);
+      background: linear-gradient(245deg, #603560 28%, #7c69aa 89%); }
+      main .buttons #create:hover {
+        background: #603560;
+        background: -webkit-linear-gradient(205deg, #603560 0%, #7c69aa 0%);
+        background: -o-linear-gradient(205deg, #603560 0%, #7c69aa 0%);
+        background: linear-gradient(245deg, #603560 0%, #7c69aa 0%); }
+    main .buttons #apple {
+      width: 47px;
+      height: 47px;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      background: #603560;
+      background: -webkit-linear-gradient(205deg, #603560 99%, #7c69aa 100%);
+      background: -o-linear-gradient(205deg, #603560 99%, #7c69aa 100%);
+      background: linear-gradient(245deg, #603560 99%, #7c69aa 100%);
+      position: relative; }
+      main .buttons #apple span {
+        position: absolute;
+        top: 13px;
+        left: 15px;
+        width: 18px;
+        height: 21px;
+        background-image: url(../img/Sprite.png);
+        background-position: -37px -15px; }
+      main .buttons #apple:hover {
+        background: #603560;
+        background: -webkit-linear-gradient(205deg, #603560 0%, #7c69aa 0%);
+        background: -o-linear-gradient(205deg, #603560 0%, #7c69aa 0%);
+        background: linear-gradient(245deg, #603560 0%, #7c69aa 0%); }
+    main .buttons #playMarket {
+      width: 47px;
+      height: 47px;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      background: #603560;
+      background: -webkit-linear-gradient(205deg, #603560 99%, #7c69aa 100%);
+      background: -o-linear-gradient(205deg, #603560 99%, #7c69aa 100%);
+      background: linear-gradient(245deg, #603560 99%, #7c69aa 100%);
+      position: relative; }
+      main .buttons #playMarket span {
+        position: absolute;
+        top: 13px;
+        left: 16px;
+        width: 20px;
+        height: 22px;
+        background-image: url(../img/Sprite.png);
+        background-position: -77px -15px; }
+      main .buttons #playMarket:hover {
+        background: #603560;
+        background: -webkit-linear-gradient(205deg, #603560 0%, #7c69aa 0%);
+        background: -o-linear-gradient(205deg, #603560 0%, #7c69aa 0%);
+        background: linear-gradient(245deg, #603560 0%, #7c69aa 0%); }
+    main .buttons button {
+      margin-right: 22px; }
+  main .main__content {
+    margin-top: 400px; }
+    main .main__content .cards {
+      margin-bottom: 137px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; }
+    main .main__content .card {
+      min-width: 380px; }
+      main .main__content .card p {
+        line-height: 1.5em;
+        max-width: 350px;
+        text-align: center;
+        text-align: left; }
+      main .main__content .card h4 {
+        position: relative;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: left;
+        margin-left: 60px; }
+      main .main__content .card h5 {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        margin-left: 60px; }
+    main .main__content #card__1 h4::before {
+      content: '';
+      position: absolute;
+      top: -7px;
+      left: -70px;
+      width: 67px;
+      height: 68px;
+      background-image: url(../img/Sprite.png);
+      background-position: -190px -5px; }
+    main .main__content #card__2 h4::before {
+      content: '';
+      position: absolute;
+      top: -17px;
+      left: -85px;
+      width: 85px;
+      height: 74px;
+      background-image: url(../img/Sprite.png);
+      background-position: -324px -5px; }
+    main .main__content #card__3 h4::before {
+      content: '';
+      position: absolute;
+      top: -8px;
+      left: -70px;
+      width: 70px;
+      height: 60px;
+      background-image: url(../img/Sprite.png);
+      background-position: -255px -103px; }
+    main .main__content .main__headline h2 {
+      font-size: 60px;
+      font-weight: 100;
+      color: #535353; }
+    main .main__content .main__headline h3 {
+      font-size: 24px;
+      font-weight: 400;
+      color: #A2A0A0;
+      max-width: 640px;
+      text-align: right;
+      margin-left: 284px;
+      margin-top: 23px; }
+      main .main__content .main__headline h3 span {
+        color: #F65151; }
+    main .main__content .main__headline .learn-more {
+      text-align: center; }
+      main .main__content .main__headline .learn-more button {
+        margin-top: 30px;
+        margin-left: 37%;
+        font-size: 16px;
+        font-weight: 400;
+        color: #989898;
+        padding: 20px 25px;
+        border: 1px solid #BFBFBF;
+        -webkit-border-radius: 50px;
+                border-radius: 50px; }
+        main .main__content .main__headline .learn-more button:hover {
+          color: #535353;
+          border: 1px solid  #535353; }
+    main .main__content .main__headline .companies {
+      margin-top: 55px; }
+      main .main__content .main__headline .companies img {
+        max-width: 100%; }
+    main .main__content .quotes-slider {
+      height: 180px;
+      margin-top: 85px;
+      margin-left: 200px;
+      position: relative; }
+      main .main__content .quotes-slider .button-quotes {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        position: absolute;
+        top: -8px;
+        left: -30px; }
+        main .main__content .quotes-slider .button-quotes label {
+          width: 10px;
+          height: 10px;
+          margin-top: 13px;
+          -webkit-border-radius: 50%;
+                  border-radius: 50%;
+          cursor: pointer;
+          background: #B8B8B8; }
+        main .main__content .quotes-slider .button-quotes .quoteControls--isActive {
+          background: #101010; }
+      main .main__content .quotes-slider .sliderQuote {
+        max-width: 529px;
+        max-height: 150px; }
+        main .main__content .quotes-slider .sliderQuote p {
+          font-size: 24px;
+          color: #535353;
+          font-style: italic; }
+  main .main__bottom {
+    margin-top: 50px;
+    position: relative; }
+    main .main__bottom .main__bottom-content {
+      max-width: 490px;
+      text-align: right;
+      margin: auto; }
+      main .main__bottom .main__bottom-content h4 {
+        font-size: 36px;
+        font-weight: 400;
+        text-align: right;
+        margin-bottom: 20px; }
+      main .main__bottom .main__bottom-content h5 {
+        font-size: 16px;
+        font-weight: 400;
+        color: #959393;
+        text-align: right; }
+      main .main__bottom .main__bottom-content::after {
+        content: '';
+        position: absolute;
+        width: 590px;
+        height: 670px;
+        background: url(../img/Laptop.jpg);
+        background-repeat: no-repeat;
+        bottom: -88%;
+        right: 2%;
+        z-index: -1; }
+      main .main__bottom .main__bottom-content #appleSecond {
+        width: 180px;
+        height: 55px;
+        background-image: url(../img/Sprite.png);
+        background-position: -552px -15px;
+        margin-right: 13px; }
+      main .main__bottom .main__bottom-content #playMarketSecond {
+        width: 180px;
+        height: 55px;
+        background-image: url(../img/Sprite.png);
+        background-position: -57px -302px; }
+    main .main__bottom .main__bottom-buttons {
+      margin-top: 32px;
+      margin-bottom: 164px; }
+  main .donate {
+    margin-top: 20%; }
+    main .donate h4 {
+      font-size: 36px;
+      font-weight: 400;
+      margin-bottom: 20px; }
+    main .donate h5 {
+      line-height: 0px;
+      font-size: 29px;
+      font-weight: 400;
+      color: #959393; }
+    main .donate .donate__buttons {
+      margin-top: 45px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-bottom: 85px; }
+      main .donate .donate__buttons #upgrade {
+        margin-right: 45px;
+        width: 245px;
+        height: 55px;
+        font-size: 18px;
+        color: #FFFFFF;
+        font-weight: 700;
+        -webkit-border-radius: 30px;
+                border-radius: 30px;
+        background: #603560;
+        background: -webkit-linear-gradient(205deg, #603560 28%, #7c69aa 89%);
+        background: -o-linear-gradient(205deg, #603560 28%, #7c69aa 89%);
+        background: linear-gradient(245deg, #603560 28%, #7c69aa 89%);
+        -webkit-box-shadow: 0px 10px 5px -4px rgba(124, 133, 205, 0.28);
+                box-shadow: 0px 10px 5px -4px rgba(124, 133, 205, 0.28); }
+        main .donate .donate__buttons #upgrade:hover {
+          background: #603560;
+          background: -webkit-linear-gradient(205deg, #603560 0%, #7c69aa 0%);
+          background: -o-linear-gradient(205deg, #603560 0%, #7c69aa 0%);
+          background: linear-gradient(245deg, #603560 0%, #7c69aa 0%); }
+      main .donate .donate__buttons #donate {
+        position: relative;
+        width: 170px;
+        height: 55px;
+        font-size: 18px;
+        color: #FFFFFF;
+        font-weight: 700;
+        -webkit-border-radius: 30px;
+                border-radius: 30px;
+        background: -webkit-gradient(linear, left top, right top, from(#38b7e1), to(#5e7bea));
+        background: -webkit-linear-gradient(left, #38b7e1 0%, #5e7bea 100%);
+        background: -o-linear-gradient(left, #38b7e1 0%, #5e7bea 100%);
+        background: linear-gradient(to right, #38b7e1 0%, #5e7bea 100%);
+        -webkit-box-shadow: 0px 10px 5px -4px rgba(63, 173, 227, 0.16);
+                box-shadow: 0px 10px 5px -4px rgba(63, 173, 227, 0.16); }
+        main .donate .donate__buttons #donate span {
+          position: absolute;
+          left: 23%; }
+        main .donate .donate__buttons #donate:hover {
+          background: #35BCE0; }
