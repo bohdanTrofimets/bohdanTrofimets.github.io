@@ -1,0 +1,40 @@
+@import "header.css";
+@import "content.css";
+@import "animation.css";
+@import "adaptive.css";
+@font-face { font-family: 'Gotham-Medium';  src: local('Gotham-Medium'), url('https://nomail.com.ua/files/woff/e19c20e966bde501f94e41cd0322dbe8.woff') format('woff'); }
+@font-face { font-family: 'Gotham-Bold';  src: local('Gotham-Bold'), url('https://nomail.com.ua/files/woff/722c5f898bbca8b2eb3fce0287688326.woff') format('woff'); }
+@font-face { font-family: 'Gotham-Book';  src: local('Gotham-Book'), url('https://nomail.com.ua/files/woff/eca1317ee8a99162d0d0e2df77330cec.woff') format('woff'); }
+body{
+    font-family: 'Gotham-Medium';
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+font-bold{
+    font-family: 'Gotham-Bold';
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}

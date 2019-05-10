@@ -1,0 +1,272 @@
+/* @media all and (min-width: 1000px) and (max-width:1200px){ */
+@media all and (min-width: 200px) and (max-width:1200px){
+    .block__1{
+        max-height: 100%;
+    }
+    .block__1 .block__logo__text h3 {
+        font-size: 24px;
+    }
+    .block__1 .block__logo__text img {
+        width: 15%;
+        background-repeat: no-repeat;
+        opacity: 0.2;
+        position: absolute;
+        top: 44%;
+        left: 50%;
+        margin-left: -78px;
+    }
+    .block__1__content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 8% 0;
+        margin: 0 20vh;
+    }
+    .block__1__content .block__card {
+        color: #F5F5F5;
+        margin-top: 40px;
+        font-size: 15px;
+        width: 220px;
+        height: 100%;
+    }
+    .block__1__content .block__card .image-radius{
+        padding: 30px;
+    }
+    .footer__content .width-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .block__8 .block__8__logo img{
+        display: none;
+    }
+    
+}
+@media all and (min-width: 1215px) and (max-width:1313px){
+        .block__8 .user-form input[type="email"],
+        .block__8 .user-form input[type="phone"],
+        .block__8 .user-form input[type="name"]
+    {
+        width: 260px;
+    }
+}
+@media all and (min-width: 1033px) and (max-width:1214px){
+    .block__8 .user-form input[type="email"],
+    .block__8 .user-form input[type="phone"],
+    .block__8 .user-form input[type="name"]
+    {
+        width: 219px;
+    }
+}
+
+@media all and (min-width: 200px) and (max-width:1032px){
+    .content .block__2, .block__3{
+        display: block;
+        height: 440px;
+        width: 100%;
+        margin: auto;
+    }
+    .block__2__text{
+        color: #F5F5F5;
+        width: 100%;
+        height: 433px;
+    }
+    .block__2__image,
+    .block__3__image{
+        width: 100%;
+    }
+    .block__2__image img,
+    .block__3__image img{
+        height: 100%;
+    }
+    .block__3__image{
+        margin-top: -4px;
+    }
+    .block__3__text{
+        width: 100%;
+        height: 375px;;
+        color: #3B3B3B;
+    }
+    .block__4 .block__4__logo h3{
+        font-size: 30px;
+    }
+    .block__5{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 15px;
+      }
+      .block__5-left{
+          width: 100%;
+      }
+      .block__5-right{
+          width: 100%;
+      }
+      .block__6{
+        max-height: 650px;
+        background: url(../img/Layer-87.jpg) no-repeat;
+        position: relative;
+    }
+    .block__8 .user-form{
+        justify-content: space-around;
+    }
+    .block__8 .user-form input[type="email"],
+    .block__8 .user-form input[type="phone"],
+    .block__8 .user-form input[type="name"]
+    {
+        width: 100%;
+    }
+
+}
+@media all and (min-width: 850px) and (max-width:1000px){
+    .block__4 .block__4__logo .block__4__image {
+        width: 9%;
+        margin-left: -37px;
+    }
+    .block__8 .block__8__logo h3{
+        font-size: 25px;
+    }
+    .block__8 .user-form input[type="email"],
+    .block__8 .user-form input[type="phone"],
+    .block__8 .user-form input[type="name"]
+    {
+        width: 171px;
+    }
+
+}
+@media all and (min-width: 631px) and (max-width:849px){
+    .block__1 .block__logo__text h3 {
+        font-size: 20px;
+    }
+    .block__1 .block__logo__text img {
+        width: 15%;
+        background-repeat: no-repeat;
+        opacity: 0.2;
+        position: absolute;
+        top: 44%;
+        left: 50%;
+        margin-left: -65px;
+    }
+    .block__3__text{
+        height: 100%;
+    }
+    .block__4 .block__4__logo .block__4__image {
+        width: 9%;
+        margin-left: -25px;
+        top: -75%;
+    }
+    .block__4 .block__4__header p {
+        font-size: 20px;
+    }
+    .block__6{
+        width: 100%;
+    }
+    .block__6__content{
+        width: 100%;
+        margin-left: 5%;
+    }
+    .block__6__content p{
+        width: 80%;
+    }
+    .block__6__content ul{
+        margin-top: 8%;
+    }
+    .block__6__content ul li a{
+        font-size: 15px;
+    }
+    .block__6__img img{
+        width: 25%;
+        position: absolute;
+        top: 34%;
+        right: 15%;
+    }
+    .block__8 .block__8__logo h3{
+        font-size: 22px;
+    }
+    .block__8 .user-form{
+        justify-content: space-around;
+    }
+    .block__8 .user-form input[type="email"],
+    .block__8 .user-form input[type="phone"],
+    .block__8 .user-form input[type="name"]
+    {
+        width: 97%;
+    }
+}
+ 
+
+@media all and (min-width: 200px) and (max-width:630px){
+    .block__1 .block__logo__text img {
+        width: 18%;
+        background-repeat: no-repeat;
+        opacity: 0.2;
+        position: absolute;
+        top: 44%;
+        left: 50%;
+        margin-left: -50px;
+    }
+    .block__1__content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 8% 0;
+        margin: 0 20vh;
+    }
+    .block__1__content .block__card {
+        margin-top: 60px;
+        width: 100%;
+    }
+    .block__3__text{
+        height: 100%;
+    }
+    .block__4 .block__4__logo .block__4__image {
+        width: 9%;
+        margin-left: -23px;
+        top: -40%;
+    }
+    .block__4 .block__4__header p {
+        font-size: 20px;
+    }
+    .block__4__content {
+        justify-content: space-around;
+    }
+    .block__4__card{
+        margin-top: 20%;
+    }
+
+    .block__5{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 15px;
+      }
+    .block__5-left{
+          width: 100%;
+      }
+    .block__5-right{
+          width: 100%;
+      }
+    .block__6{
+        height: 660px;
+    }
+    .block__6__content{
+        width: 80%;
+    }
+    .block__6__content ul{
+        margin-top: 15%;
+    }
+    .block__6__content ul li a{
+        font-size: 15px;
+        padding: 4px 2px 8px 14px;
+    }
+    .block__6__img img{
+        display: none;
+    }
+    .block__7 .block__7__logo{
+        margin-top: 27%;
+    }
+    .block__8 .block__8__logo h3{
+        font-size: 18px;
+    }
+
+}

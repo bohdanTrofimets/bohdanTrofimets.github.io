@@ -1,0 +1,53 @@
+header{
+    max-width: 1600px;
+    margin: auto;
+}
+.header__content{
+    background: url(../img/Background.jpg);
+    background-repeat: no-repeat;
+    max-height: 880px;
+}
+.header__text{
+    padding-top: 40vh;
+    text-align: center;
+}
+.header__content h1{
+    text-transform: uppercase;
+    color: #F5F5F5;
+    font-size: 80px;
+    animation: bounceInLeft  2s;
+
+}
+.header__content h2{
+    color: #11749E;
+    text-transform: uppercase;
+    letter-spacing: 2vh;
+    font-size: 24px;
+    font-weight: 100;
+}
+.header__content p{
+    color: #A5A5A5;
+    font-weight: 100;
+    margin-top: 115px;
+    font-size: 13px;
+}
+.header__content button{
+    margin-top: 25px;
+    margin-bottom: 100px;
+    color: #E8E8E7;
+    border-radius: 50%;
+    border: 1px solid #999797;
+    width: 64px;
+    height: 64px;
+    background-image: url(../img/Point.png);
+    background-position: center; 
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+#header-button:hover{
+    border: 1px solid #E8E8E7;
+}
+
