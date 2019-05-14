@@ -160,8 +160,8 @@ main {
       font-weight: 400;
       color: #A2A0A0;
       max-width: 640px;
-      text-align: right;
-      margin-left: 284px;
+      margin-left: auto;
+      margin-right: auto;
       margin-top: 23px; }
       main .main__content .main__headline h3 span {
         color: #F65151; }
